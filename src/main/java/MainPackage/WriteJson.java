@@ -4,12 +4,17 @@ import java.util.Arrays;
 import java.util.List;
 import com.google.gson.Gson;
 
+/***
+ * Automatic serialization example
+ * @author RicardoMoya
+ *
+ */
 public class WriteJson {
 
 	public static void main(String[] args) {
 		
 		List<FootballPlayer> spanishTeam = Arrays.asList(
-				new FootballPlayer(1, "Casillas", Arrays.asList("Goalkeeper"), "Real Madrid"),
+		        new FootballPlayer(1, "Casillas", Arrays.asList("Goalkeeper"), "Real Madrid"),
 				new FootballPlayer(15, "Ramos", Arrays.asList("Right back", "Centre-back"), "Real Madrid"),
 				new FootballPlayer(3, "Pique", Arrays.asList("Centre-back"), "FC Barcelona"),
 				new FootballPlayer(5, "Puyol", Arrays.asList("Centre-back"), "FC Barcelona"),
